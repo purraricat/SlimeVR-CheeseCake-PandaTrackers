@@ -1,16 +1,16 @@
 ![Intro-GIF](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaDesigns.webp) 
 
 # Panda Trackers 3D Case Designs
-Panda Trackers is upgraded 3D case design for Cheesecake trackers. These cases feature integrated 40mm clips for straps and are very simple and durable. Optimised for dancing and active use.
+Panda Trackers is upgraded 3D case design for Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
 
 ### Features 
-* Simple case design
-* Fixed center of mass (no more wobbly trackers)
+* Simplified case design
 * Extremely durable 
-* Cute cover designs 
-* Added latch to hold cover better
+* Fixed center of mass (no more wobbly trackers)
+* Cute cover graphics  
+* Added latches to hold covers better
 * Fits self tapping M2 screws
-* Uses split 4x USB-C cable instead of a charging dock 
+* Uses a simple split 4x USB-C cable instead of a charging dock 
 
 ### Printing
 Designed for PETG filament only. 
