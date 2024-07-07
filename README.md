@@ -1,4 +1,4 @@
-![Intro-GIF](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-GIF.gif) 
+![Intro-GIF](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaDesigns.webp) 
 
 # SlimeVR-CheeseCake
 Very delicious Cheesecake. Designed by Sorakage
