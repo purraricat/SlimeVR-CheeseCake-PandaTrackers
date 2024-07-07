@@ -17,7 +17,7 @@ Designed for PETG filament only.
 Settings 3 walls and 15% cubic infill.
 
 ### Durability Test 
-https://www.youtube.com/shorts/de-c2HYMtVE
+[![Panda Trackers](https://i9.ytimg.com/vi_webp/ZporygiIzrc/maxresdefault.webp?v=6668ae18&sqp=CJTlq7QG&rs=AOn4CLAHPTvxMmha8fz68fkf6PF23COMRA)](https://www.youtube.com/watch?v=de-c2HYMtVE)
  
 # SlimeVR-CheeseCake
 Very delicious Cheesecake. Designed by Sorakage
