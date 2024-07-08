@@ -17,14 +17,14 @@ Designed for PETG filament only.
 Settings 3 walls and 15% cubic infill.
 
 ### Durability Test video
-[![Panda Trackers](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaTrackersT.webp)](https://www.youtube.com/watch?v=de-c2HYMtVE)
+[![Panda Trackers](https://github.com/Sorakage033/SlimeVR-CheeseCake)](https://www.youtube.com/watch?v=de-c2HYMtVE)
 
 ### Panda Trackers more info
 * Visit Panda Trackers Discord for more info https://discord.gg/ZzgH7QkN7F 
 * Panda Trackers Youtube https://youtube.com/@pandatrackers
  
 # SlimeVR-CheeseCake
-Very delicious Cheesecake. Designed by Sorakage
+Very delicious [Cheesecake](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Top-Optimized.stl). Designed by Sorakage
 
 # OverView
 "CheeseCake" is a Lighter, portable and better looking full body tracking device.   
