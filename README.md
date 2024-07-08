@@ -17,7 +17,7 @@ Designed for PETG filament only.
 Settings 3 walls and 15% cubic infill.
 
 ### Durability Test video
-[![Panda Trackers](https://i9.ytimg.com/vi_webp/ZporygiIzrc/maxresdefault.webp?v=6668ae18&sqp=CJTlq7QG&rs=AOn4CLAHPTvxMmha8fz68fkf6PF23COMRA)](https://www.youtube.com/watch?v=de-c2HYMtVE)
+[![Panda Trackers](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaTrackersT.webp)](https://www.youtube.com/watch?v=de-c2HYMtVE)
 
 ### Panda Trackers more info
 * Visit Panda Trackers Discord for more info https://discord.gg/ZzgH7QkN7F 
