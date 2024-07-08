@@ -24,9 +24,6 @@ Settings 3 walls and 15% cubic infill.
 * Panda Trackers Youtube https://youtube.com/@pandatrackers
  
 # SlimeVR-CheeseCake
-Very delicious [Cheesecake](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Top-Optimized.stl). Designed by Sorakage
-
-# OverView
-"CheeseCake" is a Lighter, portable and better looking full body tracking device.   
-
+Very delicious [Cheesecake](https://github.com/Sorakage033/SlimeVR-CheeseCake). Designed by Sorakage
+ 
  
