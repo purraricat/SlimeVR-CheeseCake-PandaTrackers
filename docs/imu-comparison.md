@@ -44,7 +44,8 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
 
-This IMU has been tested for over 3 months, very good performance has been confirmed by over 50 users already. LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch now.
+This IMU has been tested for over 3 months, very good performance has been confirmed by over 50 users already. 
+LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch.
 
 ---
 ## LSM6DSO
