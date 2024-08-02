@@ -3,6 +3,7 @@ A comparison of currently popular IMUs for SlimeVR trackers.
 
 ## Index
 - [LSM6DSV](#lsm6dsv)
+- [LSM6DSO](#lsm6dso)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [BNO085](#bno085)
@@ -42,6 +43,11 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Perfect for dancing|                              |
 
 LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
+
+---
+## LSM6DSO
+Not enough data about this IMU model. 
+It's a budget IMU option with a possible performance above the BMI270 but below LSM6DSV. Not enough data to confirm this.
 
 ---
 ## BMI270
