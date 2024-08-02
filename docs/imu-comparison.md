@@ -37,7 +37,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate               |Low availability              |
-|Reliable               |    |
+|Reliable               |Requires warmup before use    |
 |Consistent Reset times |                              |
 |Perfect for dancing|                              |
 
@@ -101,6 +101,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Magnetometer        |Magnetometer unsable by 99% users |
 |        |High drift rate, even failure to track from fast movements                                       |
 |        |Bad price to performance ratio                                       |
+|        |Requires warmup before use                                       |
 
 
 > Please note, there is a lot of misinformation being spread by the SlimeVR CrowdSupply project having an interest selling the exact BNO085 IMU model and trackers.
