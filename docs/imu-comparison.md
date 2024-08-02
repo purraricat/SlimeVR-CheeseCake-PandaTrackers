@@ -1,17 +1,12 @@
-# IMU Comparison
-The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
-A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
-This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
+# SlimeVR IMU Comparison
+A comparison of currently popular IMUs for SlimeVR trackers.  
 
 ## Index
+- [LSM6DSV](#lsm6dsv)
 - [BNO085](#bno085)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
-- [ICM20948](#icm20948)
 - [MPU9250](#mpu9250)
-- [MPU+QMC5883L](#mpuqmc5883l)
-- [BNO055](#bno055)
 - [MPU6500](#mpu6500)
 - [MPU6050](#mpu6050)
 - [Addendum](#addendum)
@@ -22,29 +17,31 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment, the BMI160 (stable) and BMI270 (experimental) are the best price-to-performance options, far surpassing other IMUs such as the MPU6050. Neither BMI requires a stable magnetic environment, making them a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
+At the moment, LSM6DSV is the best IMU in terms of performance offering consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options. Neither LSM or BMI requires a stable magnetic environment, making them a suitable option for everyone. BNO085 IMU is heavily promoted by the Slime CrowdSupply project but it's an outdated model, with performance comparable to the budget BMI models, yet at a huge price premium, making BNO085 the worst price-to-performance option. 
 
 When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
 
 ---
-## BNO085
-This is the IMU used in production Slimes.
-They are reliable and stable chips, but at the time of writing, they remain difficult to find at modest prices like other IMUs.
-
+## LSM6DSV
+The LSM6DSV is a newest IMU for DIY SlimeVR in 2024.  
+IMU offers very good reset times, works in bad magnetic enviroments, the best option for VR dancing and fitness use.    
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30 - 45 min|~$13 |Sufficient  |Excellent    |
+|40-60 min     |~$12 |Low|Excellent    |
+
+
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate      |Expensive                              |
-|Reliable      |Extra wiring required compared to MPUs |
-|Smooth        |                                       |
+|Accurate               |Low availability              |
+|Reliable               |    |
+|Consistent Reset times |                              |
+|Perfect for dancing|                              |
 
-> Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
+LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
 
 ---
 ## BMI270
@@ -89,33 +86,24 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Single time calibration|                                                                |
 
 ---
-## ICM20948
-The ICM 20948 is a comparatively modern chip.
-While initial testing seems positive, this chip has not had enough field time for conclusive results.
-
-There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
-- Pimoroni ICM-20948 (Please note this board requires you to cut the bridge on the back to change the address);
-- Adafruit ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address);
-- SparkFun ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address);
-- GY-912 (Please note this board requires you to bridge SD0 to GND to change the address);
-- CJMCU-20948 is known to run on 1.8v and needs additional hardware to work.
-  A 1.8v Linear Voltage regulator and Logic Level Converter are needed and as such this board is not recommended.
-
-
+## BNO085
+This is the IMU used in CrowdSupply Slimes. The performance is very unrealiable. CrowdSupply trackers are sold with a magnetometer turned off because 99% of users will not be able to use that feature having bad magnetic enviroment at home. Which will cut best the case reset times to 20 min, same as for budget BMI models. Yet BNO085 suffers from accelerated drift when moving fast (example dancing) that will make trackers drift in less than 3 minutes. Making the worst performance on the list. Additionaly BNO085 suffers from stomping issue (again dancing, kicking people in Blade and Sorcery) will make your BNO085 set drift very fast, may even couse legs or hip to snap.  
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|15 - 60 min|~$15 |Insufficient|Good         |
+|3 - 20 min|~$13 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
-|Pros             |Cons                                  |
-|-----------------|--------------------------------------|
-|Accurate         |Currently still in testing            |
-|Reliable         |Sensitive to bad magnetic environments|
-|Smooth           |Availability is not guaranteed        |
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Reliable      |Expensive                              |
+|Magnetometer        |Magnetometer unsable by 99% users |
+|        |High drift rate, even failure to track from fast movements                                       |
+|        |Bad price to performance ratio                                       |
 
-`Comment: Prone to some drift when moving really fast (in 6DoF mode).`
+
+> Please note, there is a lot of misinformation being spread by the SlimeVR CrowdSupply project having an interest selling the exact BNO085 IMU model and trackers.
 
 ---
 ## MPU9250
@@ -138,54 +126,6 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 
 `Comment: Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.`
 
----
-## MPU+QMC5883L
-
-<b>Not recommended for new designs.</b>
-
-This is a highly experimental setup that approximately matches an MPU9250.
-Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
-That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
-Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
-
-
-|Reset time |Cost  |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|10 - 40min |~$2.50|Sufficient  |Mixed        |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
-
-|Pros             |Cons                                                          |
-|-----------------|--------------------------------------------------------------|
-|Cheap            |Very experimental                                             |
-|Smooth           |[Requires manual calibration the first time](#imu-calibration)|
-|Reliable         |Sensitive to bad magnetic environments                        |
-|                 |Complex wiring                                                |
-
-`Comment: Requires experimental firmware.`
-
----
-## BNO055
-
-<b>Not recommended for new designs.</b>
-
-Earlier version of the BNO085 without stabilisation firmware.
-
-*This chip does not have sufficient test results for a conclusive summary.*
-
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |~$38 |Mediocre    |Good         |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
-
-|Pros                           |Cons                                          |
-|-------------------------------|----------------------------------------------|
-|Build Quality                  |Expensive                                     |
-|Available                      |Can supposedly lose tracking with rapid motion|
-|Smooth                         |Insufficient testing                          |
-
-`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
 
 ---
 ## MPU6500
