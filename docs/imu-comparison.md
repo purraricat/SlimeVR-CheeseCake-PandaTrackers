@@ -87,7 +87,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 ---
 ## BNO085
-This is the IMU used in CrowdSupply Slimes. The performance is very unrealiable with very wide range from worst to best reset times. CrowdSupply trackers are sold with a magnetometer turned off because 99% of users will not be able to use that feature having bad magnetic enviroment at home. This will cut the best case reset times down to 20 min, bringing performance down to budget IMU models like BMI. Unlike cheap BMI IMUs, BNO085 suffers from additional problems. IMU drift is very high and tracking may even fail while moving fast. So BNO085 may drift in just 2 minutes if you jump or move fast. As a result, this IMU should be avoided for dancing and fitness. 
+This is the IMU used in CrowdSupply Slimes. The performance is very unrealiable with very wide range from worst to best reset times. CrowdSupply trackers are sold with a magnetometer turned off because 99% of users will not be able to use that feature having bad magnetic enviroment at home. This will cut the best case reset times down to 20 min, bringing performance down to budget IMU models like BMI. Unlike budget BMI IMUs, BNO085 suffers from additional problems. IMU drift is very high, tracking may even fail moving too fast. For example, BNO085 can drift in just 2 minutes, even stop tracking, if you will start jumping or tap feet while dancing. As a result, this IMU should be avoided for fitness and dance use.   
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
