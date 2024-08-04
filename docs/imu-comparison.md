@@ -65,8 +65,6 @@ It seems to perform better than the BMI160 while still being affordable.
 |Smooth                 | Experimental, still in testing                                 |
 |Single time calibration| Performance data not taken from survey                         |
 
-> Please note, that the main branch of SlimeVR firmware does not support this IMU yet, and running a custom fork is required.
-
 ---
 ## BMI160
 The BMI160 is the current go-to IMU for DIY SlimeVR.
@@ -96,8 +94,6 @@ This is the IMU used in CrowdSupply Slimes. The performance is very unrealiable 
 |:---------:|:---:|:----------:|:-----------:|
 |3 - 20 min|~$13 |Sufficient  |Excellent    |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Reliable      |Expensive                              |
@@ -120,8 +116,6 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|~$7  |Insufficient|Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
-
 |Pros             |Cons                                                           |
 |-----------------|---------------------------------------------------------------|
 |Affordable       |Very prone to counterfeit/DOA units                            |
@@ -143,8 +137,6 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
-
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
 |Affordable       |High drift rate                              |
@@ -164,8 +156,6 @@ The MPU6050 will get you started with SlimeVR for cheap.
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |1 - 5 min  |~$1.04|Sufficient  |Poor         |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
