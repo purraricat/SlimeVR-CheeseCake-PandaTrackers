@@ -7,14 +7,14 @@ A [comparison of IMUs](docs/imu-comparison.md) currently popular for SlimeVR tra
 coming soon
  
 # Panda Trackers 3D Case Designs
-Panda Trackers is upgraded 3D case design for Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
+Panda Trackers are based on upgraded 3D case design of Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
 
 ### Features 
 * Simplified case design
 * Extremely durable 
 * Fixed center of mass (no more wobbly trackers)
 * Cute cover graphics  
-* Added latches to hold covers better
+* Added latches for covers
 * Fits self tapping M2 screws
 * Uses a simple split 4x USB-C cable instead of a charging dock 
 
