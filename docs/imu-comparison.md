@@ -14,11 +14,11 @@ A comparison of currently popular IMUs for SlimeVR trackers.
 
 ## Criteria
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
-These factors are meant to give a quick indication as to what to expect from various IMUs, your mileage may vary.
-For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment, LSM6DSV is the best IMU in terms of performance offering consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options. Neither LSM or BMI requires a stable magnetic environment, making them a suitable option for everyone. BNO085 IMU is heavily promoted by the Slime CrowdSupply project but it's an outdated model, with performance comparable to the budget BMI models, yet at a huge price premium, making BNO085 the worst price-to-performance option. 
+LSM6DSV is the best IMU in terms of performance in 2024. LSM6DSV offers consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options. Neither LSM or BMI requires a stable magnetic environment. 
+
+BNO085 IMUs main feature is sensor fusion with integrated magnetometer. This IMU requires a stable magnetic enviroment to perform well. Majority of homes do not have good magnetic enviroment. For this reason, SlimeVR trackers using BNO085 IMUs are sold with the featured turned off and do perform rather poor on a level with budget IMUs like the BMI160, Making the BNO085 a very bad price to performance choice.
 
 When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
 
@@ -31,10 +31,8 @@ IMU offers very good reset times, works in bad magnetic enviroments, the best op
 |:---------:|:---:|:----------:|:-----------:|
 |40-60 min     |~$12 |Low|Excellent    |
 
-
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-
+> New expirimental MBE firmwares for LSM6DSV are achieving 90 min resets already but do require more calibratin steps and have more bugs. This is why older stable sfusion firmware is used on Panda Trackers still delivering the best performance with +45 min resets from all IMUs.  
+ 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate               |Low availability              |
@@ -44,24 +42,22 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
 
-LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch. Very good LSM6DSV performance has been confirmed by over 50 users already. 
+LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch. Very good LSM6DSV performance using sfusion has been confirmed by over 50 users now. 
 
 ---
 ## LSM6DSO
-Not enough data about this IMU model. 
 It's a budget IMU option with a possible performance above the BMI270 but below LSM6DSV. Not enough data to confirm this.
 
 ---
 ## BMI270
-The BMI270 is a relatively new and <b>experimental</b> IMU for DIY SlimeVR.
-It seems to perform significantly better than the BMI160 while still being affordable.
+The BMI270 is a relatively new IMU for DIY SlimeVR.
+It seems to perform better than the BMI160 while still being affordable.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |20 - 30min |~$3.8 |Sufficient  |Great        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
-
+ 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
 |Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
@@ -84,8 +80,7 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 20min |~$1.50|Sufficient  |Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
-
+ 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
 |Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
