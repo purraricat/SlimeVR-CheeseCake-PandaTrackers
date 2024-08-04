@@ -18,7 +18,7 @@ We rank these chips in the following categories: Reset Time, Cost, Availability 
 ## General Recommendations
 LSM6DSV is the best IMU in terms of performance in 2024. LSM6DSV offers consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options. Neither LSM or BMI requires a stable magnetic environment. 
 
-BNO085 IMUs main feature is sensor fusion with integrated magnetometer. This IMU requires a stable magnetic enviroment to perform well. Majority of homes do not have good magnetic enviroment. For this reason, SlimeVR trackers using BNO085 IMUs are sold with the featured turned off and do perform rather poor on a level with budget IMUs like the BMI160, Making the BNO085 a very bad price to performance choice.
+BNO085 IMUs main feature is sensor fusion with integrated magnetometer. This IMU requires a stable magnetic enviroment to perform well. Majority of homes do not have good magnetic enviroment. For this reason, SlimeVR trackers using BNO085 IMUs are sold with the featured turned off and do perform rather poor on a level with budget IMUs like the BMI160, Making the BNO085 a bad price to performance choice.
 
 When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
 
