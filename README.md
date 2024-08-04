@@ -1,7 +1,10 @@
-[![Intro-GIF](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaDesigns.webp)](https://discord.gg/ZzgH7QkN7F) 
+[![Intro-GIF](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaTrackersT.webp)](https://discord.gg/ZzgH7QkN7F) 
 
 # SlimeVR IMU Comparison
 A [comparison of IMUs](docs/imu-comparison.md) currently popular for SlimeVR trackers.
+
+# LSM IMU calibration guide
+coming soon
  
 # Panda Trackers 3D Case Designs
 Panda Trackers is upgraded 3D case design for Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
@@ -18,9 +21,6 @@ Panda Trackers is upgraded 3D case design for Cheesecake trackers. These cases a
 ### Printing
 Designed for PETG filament only. 
 Settings 3 walls and 15% cubic infill.
-
-### Durability Test video
-[![Panda Trackers](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaTrackersT.webp)](https://www.youtube.com/watch?v=de-c2HYMtVE)
 
 ### Panda Trackers more info
 * Visit Panda Trackers Discord for more info https://discord.gg/ZzgH7QkN7F 
