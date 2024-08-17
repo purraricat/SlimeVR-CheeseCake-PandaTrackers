@@ -43,4 +43,5 @@ If you have the tracker connected via USB and open the serial console, you will 
 Calibration will be bad with USB cable plugged because it will pull on the board and generate heat charging the tracker too. So to get a good calibration always redo it without the USB cable plugged and just follow the LED light.
 
 
+Return Panda Trackers [main README.md](../README.md) 
 
