@@ -26,7 +26,9 @@ This guide is specifically for the LSM6DSV IMU calibration but you can use same 
 
     **There will be two very short blinks when each position is recorded.**
     
-    Rotate the device 90 or 180 degrees in any direction. It should be on a different side each time. Continue to rotate until all 6 sides have been recorded.
+    Rotate the device 90 or 180 degrees in any direction. It should be on a different side each time. Continue to rotate until all 6 sides have been recorded. I like rotating tracker on one axis 90' degrees to record all 4 sides, then flip axis to record 2 sides left. This makes keeping track of recorded sides easy.
+
+    Watch calibration video - https://www.youtube.com/watch?v=0kHLL7mCRfo
     
     The last position has a long flash when recorded, then LED will start blinking normaly and tracker will appear connected in the SlimeVR server. All calibration data has been saved on the tracker and you can turn it off safely now. 
 
