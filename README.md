@@ -1,7 +1,7 @@
 [![Intro-GIF](https://raw.githubusercontent.com/purraricat/SlimeVR-CheeseCake-PandaTrackers/main/999-PictureFiles/PandaTrackersT.webp)](https://discord.gg/ZzgH7QkN7F) 
 
 # SlimeVR IMU Comparison
-A [comparison of IMUs](docs/imu-comparison.md) currently popular for SlimeVR trackers.
+[A comparison of IMUs](docs/imu-comparison.md) currently popular for SlimeVR trackers.
 
 # LSM IMU Calibration Guide
 [LSM6DSV IMU calibration guide](docs/imu-calibration.md)  
