@@ -6,7 +6,7 @@ This guide discusses how to achieve great performance (consistent +45 min resets
 
 Make sure you are using correct chip. There are many LSM6 IMUs but only the **LSM6DSV** is the top model with the best performance. 
 
-You need well designed trackers that follow LSM6DSV design specifications (many SlimeVR designs do not follow this). Recommended well tested designs: Cheesecake and Panda. 
+You need well designed trackers that follow LSM6DSV design specifications (many SlimeVR designs do not follow this). Recommended well tested designs: Cheesecake and Panda. Get Panda Trackers - https://discord.gg/ZzgH7QkN7F  
 
  ## 2. Correct firmware 
 
