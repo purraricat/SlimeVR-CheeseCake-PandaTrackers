@@ -16,7 +16,7 @@ You need well designed trackers that follow LSM6DSV design specifications (many 
 
  ## 3. six sides calibration
 
-Make sure you have done the LSM6DSV IMU [6 sides calibration](docs/imu-calibration.md) correctly.  
+Make sure you have done the LSM6DSV IMU [6 sides calibration](imu-calibration.md) correctly.  
 
  ## 4. Using LSM6DSV trackers
 
