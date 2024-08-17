@@ -12,7 +12,9 @@ You need well designed trackers that follow LSM6DSV design specifications (many 
 
  Make sure you are using correct FW: [l0ud/sfusion](https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270/tree/sfusion). This FW is well tested on LSM6DSV and provides GREAT and CONSISTENT results. It has been merged with the main SlimeVR/main already, meaning it's very stable and performs consistent.
  
- There are many versions of sfusion, do not mistake them. Do not use kounocom/sfusion-tuned-mbe or any FW like that. Do not use any of MBE firmwares, those are expirimentaly, have many bugs and do not provide consistent results.
+ There are many versions of sfusion, do not mistake them. Do not use kounocom/sfusion-tuned-mbe or any FW like that. 
+ 
+ Do not use any of MBE firmwares, those are expirimentaly, have many bugs and do not provide consistent results.
 
  ## 3. six sides calibration
 
