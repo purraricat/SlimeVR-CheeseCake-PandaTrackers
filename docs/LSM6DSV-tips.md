@@ -14,7 +14,7 @@ You need well designed trackers that follow LSM6DSV design specifications (many 
  
  There are many versions of sfusion, do not mistake them. Do not use kounocom/sfusion-tuned-mbe or any FW like that. Do not use any of MBE firmwares, those are expirimentaly, have many bugs and do not provide consistent results.
 
- ## 3. 6 sides calibration
+ ## 3. six sides calibration
 
 Make sure you have done the LSM6DSV IMU [6 sides calibration](docs/imu-calibration.md) correctly.  
 
