@@ -6,11 +6,11 @@ This guide discusses how to achieve great performance (consistent +45 min resets
 
 Make sure you are using correct chip. There are many LSM6 IMUs but only the **LSM6DSV** is the top model with the best performance. 
 
-You need well designed trackers that follow LSM6DSV design specifications (many SlimeVR designs do not follow this). Recommended well tested designs: Cheesecake and Panda. Get Panda Trackers - https://discord.gg/ZzgH7QkN7F  
+You need well designed trackers that follow LSM6DSV design specifications (many SlimeVR designs do not follow this). Recommended well tested designs: Cheesecake and Panda. Get [Panda Trackers](https://discord.gg/ZzgH7QkN7F). 
 
  ## 2. Correct firmware 
 
- Make sure you are using correct FW: l0ud/sfusion. This FW is well tested on LSM6DSV and provides GREAT and CONSISTENT results. It has been merged with the main SlimeVR/main already, meaning it's very stable and performs consistent.
+ Make sure you are using correct FW: [l0ud/sfusion](https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270/tree/sfusion). This FW is well tested on LSM6DSV and provides GREAT and CONSISTENT results. It has been merged with the main SlimeVR/main already, meaning it's very stable and performs consistent.
  
  There are many versions of sfusion, do not mistake them. Do not use kounocom/sfusion-tuned-mbe or any FW like that. Do not use any of MBE firmwares, those are expirimentaly, have many bugs and do not provide consistent results.
 
