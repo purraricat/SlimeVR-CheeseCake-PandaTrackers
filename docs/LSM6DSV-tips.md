@@ -24,6 +24,6 @@ Always place trackers on a stable surface (table or floor) and turn them on. Wai
 
 You need to warm your trackers each time your start them. There are many ways to do it but the simplest one is to turn them on and play for 20 min. Trackers will reach stable working temperature after that. You need to take trackers off and place on the stable surface like floor and leave to sit for a few seconds, so sensor could recalibrate at a working temperature. You can put your trackers back on and continue playing, enjoying +45 min resets now! 
 
-Return Panda Trackers [main README.md](README.md) 
+Return Panda Trackers [main README.md](../README.md) 
 
 
