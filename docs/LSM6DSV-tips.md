@@ -1,6 +1,6 @@
 # LSM6DSV Best Practices
 
-This guide discusses how to achieve great performance (consistent +45 min resets) using trackers with LSM6DSV IMU. You can skip step 1 and 2, if you are using Panda LSM6DSV Trackers.  
+This guide discusses how to achieve great performance (consistent +45 min resets) using trackers with LSM6DSV IMU. You can skip step 1 and 2, if you are using Panda Trackers (LSM6DSV).  
 
  ## 1. LSM6DSV hardware
 
