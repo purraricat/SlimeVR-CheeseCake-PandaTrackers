@@ -6,6 +6,7 @@ This guide is specifically for the LSM6DSV IMU calibration but you can use same 
 
   - For best results, **calibrate when the trackers are warmed up** - turn them on and wear them for 20 minutes,
     wait for the temperature to stabilize at 30-40 degrees C, only then calibrate.
+
     Enable developer mode in SlimeVR settings to see tracker temperature.
 
 ### LSM6DSV - 6 sides calibration
