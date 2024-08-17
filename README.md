@@ -4,7 +4,7 @@
 [A comparison of IMUs](docs/imu-comparison.md) currently popular for SlimeVR trackers.
 
 # LSM IMU Calibration Guide
-[LSM6DSV IMU calibration guide](docs/imu-calibration.md)  
+LSM6DSV IMU [calibration guide](docs/imu-calibration.md)  
 
 # LSM6DSV Best Practices
 [LSM6DSV tips](docs/LSM6DSV-tips.md) for achieving the best performance and consistent +45 min reset times with LSM6DSV IMU based SlimeVR trackers.
