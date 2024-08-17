@@ -1,6 +1,8 @@
 ## IMU Sensor calibration
 
-This guide is specifically for the LSM6DSV IMU calibration but you can use same steps for BMI160, BMI270 and LSM6DSO models too. 6 sides calibration needs to be done only once after you get or build your new tracker set.
+This guide is specifically for the LSM6DSV IMU calibration but you can use same steps for BMI160, BMI270 and LSM6DSO models too. 
+
+6 sides calibration needs to be done only once after you get or build your new tracker set.
 
   - For best results, **calibrate when the trackers are warmed up** - turn them on and wear them for 20 minutes,
     wait for the temperature to stabilize at 30-40 degrees C, only then calibrate.
