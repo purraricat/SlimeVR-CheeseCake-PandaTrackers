@@ -8,7 +8,7 @@ Make sure you are using a correct chip. There are many LSM6 family IMUs (example
 
 You need well designed trackers that follow LSM6DSV design specifications (many SlimeVR designs do not follow this). Recommended well tested designs: Cheesecake and Panda. Get [Panda Trackers](https://discord.gg/ZzgH7QkN7F). 
 
-There are a few reports of faulty LSM6DSV IMU boards from some SlimeVR sellers but not enough data to confirm. It's possible to damage your IMU building DIY trackers. It's possible there are just bad DIY tracker designs for LSM6DSV. Main issues on tiny SlimeVR trackers that do not follow LSM6DSV design guidelines and place other componnents too close to the IMU sensor. 
+There are a few reports of faulty LSM6DSV IMU boards from some SlimeVR sellers but not enough data to confirm yet. It's possible to damage your IMU building DIY trackers. It's possible there are just bad DIY tracker designs for LSM6DSV. Main issues on tiny SlimeVR trackers that do not follow LSM6DSV design guidelines and place other componnents too close to the IMU sensor. 
 
  ## Correct firmware 
 
