@@ -42,6 +42,15 @@ If you have the tracker connected via USB and open the serial console, you will 
 
 Calibration will be bad with USB cable plugged because it will pull on the board and generate heat charging the tracker too. So to get a good calibration always redo it without the USB cable plugged and just follow the LED light.
 
+  #### Common mistakes
+
+  Trackers not entering calibration mode. Make sure to wait 2s after switching the tracker on and only then flip it up.
+
+  Calibrating tracker without warming up. This is especially important for the LSM6DSV, if you will calibrate it at a room temperature 25'C but the tracker normal working temperature while you play is 38'C, the calibration will be bad, making tracker drift much faster.  
+
+  Make sure you are using a stable, level surface. If you have wobly computer desk, user floor, stool or anything else more stable for the calibration.
+
+  Moving your tracker during the calibration, if you will bump your table by accident, even walk close to the table/tracker, it might be enough for the tracker to record. Making calibration invalid. You will need to turn off tracker and start calibration again.  
 
 Return Panda Trackers [main README.md](../README.md) 
 
