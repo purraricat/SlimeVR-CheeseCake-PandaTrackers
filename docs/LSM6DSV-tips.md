@@ -28,8 +28,8 @@ There are a few reports of bad performance of LSM6DSV trackers from some SlimeVR
 
  ## Correct firmware 
 
- Make sure you are using correct FW: [SlimeVR/main](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/tree/main) (previous version [l0ud/sfusion](https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270/tree/sfusion)). This FW is well tested on LSM6DSV and provides GREAT and CONSISTENT results, it has been merged to the main SlimeVR/main now.
+ Make sure you are using correct FW: [l0ud/sfusion](https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270/tree/sfusion) (a backup Panda Trackers [LSM sfusion](https://github.com/purraricat/Panda-Trackers-LSM-sfusion/tree/sfusion)). This FW is well tested on LSM6DSV and provides GREAT and CONSISTENT results, it has been merged to the main SlimeVR/main now. Do not use the SlimeVR/main though, it will still provide worse reset times over original sfusion. Make sure you are flashing the correct l0ud/sfusion brach and not just the default l0ud/main too. You can use [web flasher](https://slimevr-firmware.unlogisch.ch) for easy flashing. 
  
- There are many versions of sfusion, do not mistake them. Do not use sfusion-tuned-mbe, tcal or any similar sfusion FWs those a different and have bugs. 
+ There are many versions of sfusion, do not mistake them. Some may sound better and have extra features added like sfusion-tcal or dynamic-sfusion but all have delivered worse reset times over the original l0ud/sfusion then tested. 
  
- Do not use any of MBE firmwares, those are expirimental, have many bugs and require extra steps to work. 
+ Do not use any of MBE firmwares, those are expirimental and have many bugs. MBE requires extra calibration steps before every session too. MBE fw are not optimized and will cause issues on the esp-12f used in Pandas and Cheesecakes. 
