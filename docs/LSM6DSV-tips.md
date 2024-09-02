@@ -32,4 +32,4 @@ There are a few reports of bad performance of LSM6DSV trackers from some SlimeVR
  
  There are many versions of sfusion, do not mistake them. Some may sound better and have extra features added like sfusion-tcal or dynamic-sfusion but all have delivered worse reset times over the original l0ud/sfusion then tested. 
  
- Do not use any of MBE firmwares, those are expirimental and have many bugs. MBE requires extra calibration steps before every session too. MBE fw are not optimized and will cause issues on the esp-12f used in Pandas and Cheesecakes. 
+ Do not use any of MBE firmwares, those are expirimental and have many bugs. MBE requires extra calibration steps before every session. MBE fw's are not optimized and will cause issues on the esp-12f used in Pandas and Cheesecakes. MBE has issues with extensions too.
