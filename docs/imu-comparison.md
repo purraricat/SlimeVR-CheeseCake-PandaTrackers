@@ -97,7 +97,7 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Reliable      |Expensive                              |
-|Magnetometer        |Magnetometer unsable by 99% users |
+|Magnetometer        |Magnetometer unusable by 99% users |
 |        |High drift rate with magnetometer turned off                                     |
 |        |Fails to track fast movements                                       |
 |        |Bad price to performance ratio                                       |
