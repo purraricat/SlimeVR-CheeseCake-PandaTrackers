@@ -84,7 +84,7 @@ It is an easily available chip with decent performance and good reliability.
 ---
 ## BNO085
 
-This is the official IMU used in Crowd Supply SlimeVR trackers. Performance varies at lot using the BNO085 IMU and it's pretty outdated model in 2025 too. NOT recommended for DANCING.
+This is the official IMU used in Crowd Supply SlimeVR trackers. Performance varies a lot using the BNO085 IMU and it's pretty outdated model in 2025 too. NOT recommended for DANCING.
 
 Two major factors affect BNO085 drift times: magnetic environment and type of use. Most homes do not have a good magnetic environment, so SlimeVR trackers are shipped with this feature turned off. This automatically caps tracker performance down to 20 min, in best case scenario.  
 
