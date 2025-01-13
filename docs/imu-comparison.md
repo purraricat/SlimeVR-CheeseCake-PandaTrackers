@@ -104,7 +104,7 @@ Second issue, BNO085 sensor does not like fast movement, which makes it poor cho
 |        |Requires warmup before use                                       |
 
 
-> Please note, there is a lot of misinformation being spread about the BNO085 by the SlimeVR CrowdSupply project. SlimeVR documentation ranks BNO085 as the best chip. It lists only the best case scenario reset times for the BNO085 in a perfect magnetic enviroment and not moving at all. Does not mention anything about issues in dancing and fighting games.
+> Please note, there is a lot of misinformation being spread about the BNO085 by the SlimeVR CrowdSupply project. SlimeVR documentation ranks BNO085 as the best chip. It lists only the best case scenario reset times for the BNO085 in a perfect magnetic enviroment and staying still through all of that time. Does not mention anything about issues in dancing and fighting games.
 
 ---
 ## MPU9250
