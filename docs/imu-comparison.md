@@ -16,7 +16,7 @@ A comparison of currently popular IMUs for SlimeVR trackers.
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
 
 ## General Recommendations
-LSM6DSV is the best IMU in terms of performance in 2024. LSM6DSV offers consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options. Neither LSM or BMI requires a stable magnetic environment. 
+LSM6DSV is the best IMU in terms of performance since the 2024. LSM6DSV offers consistent +45min resets. The BMI160 / BMI270 are the best price-to-performance options offering around 20min resets. Neither LSM or BMI requires a stable magnetic environment. 
 
 BNO085 IMUs main feature is sensor fusion with integrated magnetometer. This IMU requires a stable magnetic enviroment to perform well. Majority of homes do not have good magnetic enviroment. For this reason, SlimeVR trackers using BNO085 IMUs are sold with the featured turned off and do perform rather poor on a level with budget IMUs like the BMI160, Making the BNO085 a bad price to performance choice.
 
@@ -50,8 +50,7 @@ It's a budget IMU option with a possible performance above the BMI270 but below 
 
 ---
 ## BMI270
-The BMI270 is a relatively new IMU for DIY SlimeVR.
-It seems to perform better than the BMI160 while still being affordable.
+The BMI270 is slightly newer and better performing version of the BMI160 while still being affordable.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
@@ -70,10 +69,6 @@ It seems to perform better than the BMI160 while still being affordable.
 The BMI160 is the current go-to IMU for DIY SlimeVR.
 It is an easily available chip with decent performance and good reliability.
 
-It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
-in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers, this is highly experimental.
-Reset times and yaw accuracy with a magnetometer will depend on your build quality and magnetic environment.
-
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 20min |~$1.50|Sufficient  |Good         |
@@ -88,15 +83,20 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 
 ---
 ## BNO085
- 
+
+This is the official IMU used in Crowd Supply SlimeVR trackers. Performance varies at lot using the BNO085 IMU and it's pretty outdated model in 2025 too. NOT recommended for DANCING.
+
+Two major factors affect BNO085 drift times: magnetic environment and type of use. Most homes do not have a good magnetic environment, so SlimeVR trackers are shipped with this feature turned off. This automatically caps tracker performance down to 20 min, in best case scenario.  
+
+Second issue, BNO085 sensor does not like fast movement, which makes it poor choice for dancing and combat games. Moving fast makes BNO085 trackers drift much faster. Jumping, stomping feet might make them fail completely (also know as feet snapping). BNO085 is not recommended for dancing. It hardly can last a single fast song without drifting and even slow songs will require a reset every 2-3 songs. For this reason BMI270 and LSM6DSV chips are recommended for dancing, fighting type of games.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|3 - 20 min|~$13 |Sufficient  |Excellent    |
+|3 - 45 min|~$13 |Sufficient  |Excellent    |
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Reliable      |Expensive                              |
+|      |Expensive                              |
 |Magnetometer        |Magnetometer unusable by 99% users |
 |        |High drift rate with magnetometer turned off                                     |
 |        |Fails to track fast movements                                       |
@@ -104,7 +104,7 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 |        |Requires warmup before use                                       |
 
 
-> Please note, there is a lot of misinformation being spread by the SlimeVR CrowdSupply project having an interest selling the exact BNO085 IMU model and trackers.
+> Please note, there is a lot of misinformation being spread about the BNO085 by the SlimeVR CrowdSupply project. SlimeVR documentation ranks BNO085 as the best chip. It lists only the best case scenario reset times for the BNO085. Having perfect magnetic environment at home and not moving at all to achieve max 45 min resets. Not mentioning, that 99% users do not have good magnetic environment at home.  And not mentioning any further disadvantages for usecases like dancing. 
 
 ---
 ## MPU9250
