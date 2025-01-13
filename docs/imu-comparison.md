@@ -24,7 +24,7 @@ When referring to the order of the IMUs on this page, bear in mind that they're 
 
 ---
 ## LSM6DSV
-The LSM6DSV is a newest IMU for DIY SlimeVR in 2024.  
+The LSM6DSV is a newest IMU for DIY SlimeVR since 2024.  
 IMU offers very good reset times, works in bad magnetic enviroments, the best option for VR dancing and fitness use.    
 
 |Reset time |Cost |Availability|Build quality|
