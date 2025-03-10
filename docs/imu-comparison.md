@@ -24,25 +24,25 @@ When referring to the order of the IMUs on this page, bear in mind that they're 
 
 ---
 ## LSM6DSV
-The LSM6DSV is a newest IMU for DIY SlimeVR since 2024.  
+The LSM6DSV is a newest IMU for DIY SlimeVR in 2024.  
 IMU offers very good reset times, works in bad magnetic enviroments, the best option for VR dancing and fitness use.    
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|40-60 min     |~$12 |Low|Excellent    |
+|40-90 min     |~$7 |Good|Excellent    |
 
-> New expirimental MBE firmwares for LSM6DSV are achieving 90 min resets already but do require more calibratin steps and have more bugs. This is why older stable sfusion firmware is used on Panda Trackers still delivering the best performance with +45 min resets from all IMUs.  
+> Currently there are two popular firmwares for LSM6DSV offering 40-90 min resets. Sfusion needs one time calibration and offers good reset times from the start. Dynamic sfusion does not require a calibration but takes over an hour to reach a comparable performance with well calibrated sfusion each time starting a new session.  
  
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate               |Low availability              |
-|Reliable               |Requires warmup before use    |
+|Accurate               |Requires warmup before use            |
+|Reliable               |   |
 |Consistent Reset times |                              |
 |Perfect for dancing|                              |
 
 LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
 
-LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch. Very good LSM6DSV performance using sfusion has been confirmed by over 50 users now. 
+LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch. Very good LSM6DSV performance using sfusion has been confirmed by over hundreds of users now. 
 
 ---
 ## LSM6DSO
