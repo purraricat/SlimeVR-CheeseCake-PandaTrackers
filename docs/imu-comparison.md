@@ -35,14 +35,16 @@ IMU offers very good reset times, works in bad magnetic enviroments, the best op
  
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate               |Requires warmup before use            |
-|Reliable               |   |
+|Accurate               |Requires Quality Tracker design            |
+|Reliable               |Requires warmup before use   |
 |Consistent Reset times |                              |
 |Perfect for dancing|                              |
 
 LSM6DSV IMU chips and SlimeVR trackers using this IMU can be bought at [Panda Trackers](https://discord.gg/VPjtkujaVs).
 
 LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branch. Very good LSM6DSV performance using sfusion has been confirmed by over hundreds of users now. 
+
+**Important:** LSM6DSV is new and more accurate IMU sensor, it will not fix all SlimeVR DIY tracker problems, it will not improve reset times for DIY trackers. To get +40 min reset times you need: quality PCB design, quality tracker design, correct firmware and good calibration.  
 
 ---
 ## LSM6DSO
