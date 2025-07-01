@@ -49,11 +49,11 @@ LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branc
 
 ---
 ## LSM6DSO
-It's a budget IMU option with a possible performance above the BMI270 but below LSM6DSV. Not enough data to confirm this.
+It's a budget IMU option with a possible performance slightly above the BMI270 but way below the LSM6DSV. Little data on this IMU.
 
 ---
 ## ICM-45686
-Budget IMU option. Moving fast (dancing, fitness) will make trackers drift much faster with this IMU, same as BMI270. Has a magnetometer built in. Most homes do not have a good magnetic environment, trackers are shipped with the featured turned off.
+Budget IMU option. Moving fast (dancing, fitness) will make trackers drift much faster with this IMU, similar to the BMI270. Has a magnetometer built in. Most homes do not have a good magnetic environment though. SlimeVR trackers are shipped with the magnetometer featured turned off.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
