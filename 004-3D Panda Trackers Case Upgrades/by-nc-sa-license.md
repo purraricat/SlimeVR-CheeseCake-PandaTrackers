@@ -5,7 +5,7 @@
 ### Panda Trackers License
 Creative Commons Attribution-Noncommercial-Share Alike
 
-[![Panda Trackers License](999-PictureFiles/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Panda Trackers License](./999-PictureFiles/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 * Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * NonCommercial — You may not use the material for commercial purposes .
