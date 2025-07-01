@@ -4,6 +4,7 @@ A comparison of currently popular IMUs for SlimeVR trackers.
 ## Index
 - [LSM6DSV](#lsm6dsv)
 - [LSM6DSO](#lsm6dso)
+- [LSM6DSO](#ICM-45686)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [BNO085](#bno085)
@@ -51,12 +52,20 @@ LSM6DSV sfusion firmware is stable and has been merged to the main SlimeVR branc
 It's a budget IMU option with a possible performance above the BMI270 but below LSM6DSV. Not enough data to confirm this.
 
 ---
+## ICM-45686
+Budget IMU option. Moving fast (dancing, fitness) will make trackers drift much faster with this IMU, same as BMI270. Has a magnetometer built in. Most homes do not have a good magnetic environment, trackers are shipped with the featured turned off.
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|10 - 30min |~$5 |Sufficient  |Great        |
+
+---
 ## BMI270
 The BMI270 is slightly newer and better performing version of the BMI160 while still being affordable.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|20 - 30min |~$3.8 |Sufficient  |Great        |
+|10 - 30min |~$3.8 |Sufficient  |Great        |
 
  
 |Pros                   |Cons                                                            |
@@ -86,9 +95,9 @@ It is an easily available chip with decent performance and good reliability.
 ---
 ## BNO085
 
-This is the official IMU used in Crowd Supply SlimeVR trackers. Performance varies a lot using the BNO085 IMU and it's pretty outdated model in 2025 too. NOT recommended for DANCING.
+This is the official IMU used in Crowd Supply SlimeVR trackers. Performance varies a lot using the BNO085 IMU. It's outdated model in 2025 too. NOT recommended for DANCING or any active use.
 
-Two major factors affect BNO085 drift times: magnetic environment and type of use. Most homes do not have a good magnetic environment, so SlimeVR trackers are shipped with this feature turned off. This automatically caps tracker performance down to 20 min, in best case scenario.  
+Two major factors affect BNO085 drift times: magnetic environment and type of use. Most homes do not have a good magnetic environment, so SlimeVR trackers are shipped with this feature turned off. This automatically caps tracker performance below 20 min, in best case scenario.  
 
 Second issue, BNO085 sensor does not like fast movement, which makes it poor choice for dancing and combat games. Moving fast makes BNO085 trackers drift much faster. Jumping, stomping feet might make them fail completely (also know as feet snapping). BNO085 is not recommended for dancing. It hardly can last a single fast song without drifting and even slow songs will require a reset every 2-3 songs. For this reason BMI270 and LSM6DSV chips are recommended for dancing, fighting type of games.
 
