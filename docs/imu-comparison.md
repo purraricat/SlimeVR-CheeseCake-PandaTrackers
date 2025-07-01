@@ -30,7 +30,7 @@ IMU offers very good reset times, works in bad magnetic enviroments, the best op
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|40-90 min     |~$7 |Good|Excellent    |
+|45-90 min     |~$7 |Good|Excellent    |
 
 > Currently there are two popular firmwares for LSM6DSV offering 40-90 min resets. Sfusion needs one time calibration and offers good reset times from the start. Dynamic sfusion does not require a calibration but takes over an hour to reach a comparable performance with well calibrated sfusion each time starting a new session.  
  
