@@ -34,8 +34,7 @@ Creative Commons Attribution-Noncommercial-Share Alike
 
 ![Panda Trackers License](999-PictureFiles/by-nc-sa.png)
 
- 
-# SlimeVR-CheeseCake
+### SlimeVR-CheeseCake
 Very delicious [Cheesecake](https://github.com/Sorakage033/SlimeVR-CheeseCake). Designed by Sorakage
  
  
