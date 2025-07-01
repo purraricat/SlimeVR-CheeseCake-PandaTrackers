@@ -4,7 +4,7 @@ A comparison of currently popular IMUs for SlimeVR trackers.
 ## Index
 - [LSM6DSV](#lsm6dsv)
 - [LSM6DSO](#lsm6dso)
-- [LSM6DSO](#ICM-45686)
+- [ICM-45686](#ICM-45686)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [BNO085](#bno085)
