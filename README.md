@@ -30,7 +30,10 @@ Settings 3 walls and 15% cubic infill.
 * Panda Trackers Youtube https://youtube.com/@pandatrackers
 
 ### Panda Trackers License
-* Creative Commons Attribution-Noncommercial-Share Alike
+Creative Commons Attribution-Noncommercial-Share Alike
+
+![Panda Trackers License](999-PictureFiles/by-nc-sa.png)
+
  
 # SlimeVR-CheeseCake
 Very delicious [Cheesecake](https://github.com/Sorakage033/SlimeVR-CheeseCake). Designed by Sorakage
