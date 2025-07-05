@@ -2,7 +2,7 @@
 
 This guide is specifically for the LSM6DSV IMU calibration running (l0ud/sfusion FW) but you can use same steps for BMI160, BMI270 and LSM6DSO models too. 
 
-Panda Trackers since 2025 April are running kounocom/dynamic-sfusion, they do not need 6 sides calibration. Tracker calibrates automatically standing still (blue light glows solid).
+Update: Panda Trackers since 2025 April are running kounocom/dynamic-sfusion, they do not need 6 sides calibration. Tracker calibrates automatically standing still (blue light glows solid).
 
 6 sides calibration needs to be done only once after you get or build your new tracker set.
 
