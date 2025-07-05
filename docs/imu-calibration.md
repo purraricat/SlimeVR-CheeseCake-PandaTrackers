@@ -1,6 +1,6 @@
 ## IMU Sensor calibration
 
-This guide is specifically for the LSM6DSV IMU calibration but you can use same steps for BMI160, BMI270 and LSM6DSO models too. 
+This guide is specifically for the LSM6DSV IMU calibration running (l0ud/sfusion FW) but you can use same steps for BMI160, BMI270 and LSM6DSO models too. 
 
 6 sides calibration needs to be done only once after you get or build your new tracker set.
 
