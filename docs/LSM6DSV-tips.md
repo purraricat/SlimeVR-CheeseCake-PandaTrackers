@@ -1,5 +1,7 @@
 # LSM6DSV Best Practices
 
+**2025 Update:** Panda Trackers use new firmware in 2025. It does not have 6 sides calibration anymore. Current reset times are 90 min. The guide bellow is only for trackers that still use old **sfusion** firmware. 
+
 This guide discusses how to achieve great performance (consistent +45 min resets) using trackers with LSM6DSV IMU. You can skip hardware and firmware parts, if you are using Panda Trackers (LSM6DSV).  
 
  ## Six sides calibration
