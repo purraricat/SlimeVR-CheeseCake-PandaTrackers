@@ -10,6 +10,9 @@ LSM6DSV IMU 6 sides [calibration guide](docs/imu-calibration.md)
 [LSM6DSV tips](docs/LSM6DSV-tips.md) for achieving the best performance and consistent +45 min reset times with LSM6DSV IMU based SlimeVR trackers.
  
 # Panda Trackers 3D Case Designs
+
+**Update 2025:** these are outdated info / designs, only valid for **old** 2024 and earlier Panda Trackers based on the old Cheesecake design. 
+
 Panda Trackers are based on upgraded 3D case design of Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
 
 ### Features 
