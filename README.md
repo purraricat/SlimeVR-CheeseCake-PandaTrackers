@@ -12,7 +12,7 @@ LSM6DSV IMU 6 sides [calibration guide](docs/imu-calibration.md)
 # Panda Trackers 3D Case Designs
 
 **Update 2025:** this is outdated now.   
-Old info / designs are valid **only for old** 2024 and earlier Panda Trackers based on the old Cheesecake design.     
+Old info / designs are valid **only for old** 2024 and earlier Panda Trackers based on the Cheesecake design.     
 See [Panda Trackers discord](https://discord.pandapro.nl) to buy the latest trackers.
 
 Panda Trackers are based on upgraded 3D case design of Cheesecake trackers. These cases are very durable and feature integrated 40mm clips for straps. Panda cases are optimised for dancing and active use.
