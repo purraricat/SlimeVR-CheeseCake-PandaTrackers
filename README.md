@@ -11,7 +11,7 @@ LSM6DSV IMU 6 sides [calibration guide](docs/imu-calibration.md)
  
 # Panda Trackers 3D Case Designs
 
-**Update 2025:** this is outdate now.   
+**Update 2025:** this is outdated now.   
 Old info / designs are valid **only for old** 2024 and earlier Panda Trackers based on the old Cheesecake design.     
 See [Panda Trackers discord](https://discord.pandapro.nl) to buy the latest trackers.
 
